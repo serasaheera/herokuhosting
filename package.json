@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "version": "0.0.0",
+  "description": "my nodejs program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saheerath",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~4.17.11",
+    "express-handlebars": "~3.0.2"
+  }
+}
