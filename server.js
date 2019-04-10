@@ -53,11 +53,6 @@ app.post('/login', (req,res)=>{
      res.render('gallery');
  });
 
-
-
-
-
-
 app.listen(process.env.PORT || 3000,()=>{
     console.log('web App running successfully');
 });
