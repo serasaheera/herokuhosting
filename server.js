@@ -43,7 +43,7 @@ app.post('/register', (req,res)=>{
     var uname=req.body.username;
     var password=req.body.password;
 
-    res.send(name,admission,uname,password);
+    res.send(name+admission+uname+password);
 });
 
  app.get('/', (req,res)=>{
