@@ -29,10 +29,10 @@ app.post('/login', (req,res)=>{
     var pass=req.body.password;
 
     if(user=="admin"&&pass=="1234"){
-        res.render("success");
+        res.send(JSON.stringify({status:"success"}));
     }
     else{
-        res.render("failed");
+        res.send(JSON.stringify({status:"failed"}));
     }
 });
 
