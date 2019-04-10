@@ -36,6 +36,16 @@ app.post('/login', (req,res)=>{
     }
 });
 
+app.post('/register', (req,res)=>{
+
+    var name=req.body.name;
+    var admission=req.body.admissionNo;
+    var uname=req.body.username;
+    var password=req.body.password;
+
+    res.send(name,admission,uname,password);
+});
+
  app.get('/', (req,res)=>{
      res.render('index',{name:'Tom'});
 
